@@ -1,0 +1,43 @@
+{
+  "window.zoomLevel": 1,
+  "keyboard.dispatch": "keyCode",
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "matlab.mlintpath": "/usr/local/MATLAB/R2018a/bin/glnxa64/mlint",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "cSpell.enabled": true,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "editor.rulers": [80],
+  "files.exclude": {
+    "__pycache__": true,
+    ".vscode/": true,
+    "**/*.pyc": true,
+    "**/*.aux": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.fls": true,
+    "**/*.log": true,
+    "**/*.bbl": true,
+    "**/*.out": true,
+    "**/*.blg": true,
+    "**/*.synctex.gz": true
+  },
+  "files.associations": {
+    "*.wppl": "javascript"
+  },
+  "spellright.suggestionsInHints": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "workbench.colorTheme": "Ayu Light",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "breadcrumbs.filePath": "last"
+}

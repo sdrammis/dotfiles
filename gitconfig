@@ -1,0 +1,8 @@
+[user]
+	email = sdrammis@mit.edu
+	name = sdrammis
+[core]
+	editor = code
+	excludesfile = ~/.gitignore
+[credential]
+	helper = store
