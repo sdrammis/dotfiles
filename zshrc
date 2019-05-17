@@ -35,3 +35,5 @@ source /usr/share/autojump/autojump.zsh
 alias matlab='/usr/local/MATLAB/R2018b/bin/matlab'
 
 alias firefox='/home/sabrina/Applications/firefox/firefox'
+
+alias gc='(export GIT_EDITOR=vim; git commit)'
