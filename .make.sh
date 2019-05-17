@@ -34,9 +34,10 @@ for file in $files; do
 done
 for file in $codeFiles; do
     echo "Creating symlink to $file in ~"
-    ln $dir/code/$file ~/.config/Code/User/$file
+    ln -s $dir/code/$file ~/.config/Code/User/$file
 done
 echo "Creating symlink to i3 config in ~"
-ln $dir/i3config ~/.config/i3/config
-ln $dir/roficonfig ~/.config/rofi/config
+ln -s $dir/i3config ~/.config/i3/config
+echo "Creating symlink to rofi config in ~"
+ln -s $dir/roficonfig ~/.config/rofi/config
 echo "...done"
