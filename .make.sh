@@ -22,6 +22,7 @@ for file in $codeFiles; do
     mv ~/.config/Code/User/$file $olddir/code/$file
 done
 mv ~/.config/i3/config ~/dotfiles_old/i3config
+mv ~/.config/rofi/config ~/dotfiles_old/roficonfig
 echo "...done"
 
 
@@ -37,4 +38,5 @@ for file in $codeFiles; do
 done
 echo "Creating symlink to i3 config in ~"
 ln $dir/i3config ~/.config/i3/config
+ln $dir/roficonfig ~/.config/rofi/config
 echo "...done"
