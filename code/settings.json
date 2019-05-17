@@ -39,5 +39,10 @@
   "workbench.statusBar.feedback.visible": false,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "breadcrumbs.filePath": "last"
+  "breadcrumbs.filePath": "last",
+  "spellright.language": [],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex"
+  ]
 }
