@@ -6,7 +6,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old # old dotfiles backup directory
-files="bashrc vimrc vim zshrc oh-my-zsh" # list of files to symlink in homedir
+files="bashrc gitconfig hyper.js i3config tmux.conf vimrc zshrc"
 codeFiles="keybindings.json settings.json spellright.dict" # VSCode configs
 
 ## Backup old files
