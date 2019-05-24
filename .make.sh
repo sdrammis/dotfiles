@@ -6,7 +6,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old # old dotfiles backup directory
-files="bashrc gitconfig hyper.js i3config tmux.conf vimrc zshrc"
+files="bashrc gitconfig tmux.conf vimrc zshrc"
 codeFiles="keybindings.json settings.json spellright.dict" # VSCode configs
 
 ## Backup old files
@@ -40,4 +40,6 @@ echo "Creating symlink to i3 config in ~"
 ln -s $dir/i3config ~/.config/i3/config
 echo "Creating symlink to rofi config in ~"
 ln -s $dir/roficonfig ~/.config/rofi/config
+echo "Creating symlink to alacritty config in ~"
+ln -s $dir/alacritty ~/.config/alacritty/alacritty.yml
 echo "...done"
