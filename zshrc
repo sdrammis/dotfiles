@@ -1,4 +1,4 @@
-export ZSH=/home/sabrina/.oh-my-zsh
+export ZSH=/home/sdrammis/.oh-my-zsh
 
 ZSH_THEME="arrow"
 
@@ -29,8 +29,6 @@ export KEYTIMEOUT=1
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias pdf-open=xdg-open
-
-source /usr/share/autojump/autojump.zsh
 
 alias matlab='/usr/local/MATLAB/R2018b/bin/matlab'
 
